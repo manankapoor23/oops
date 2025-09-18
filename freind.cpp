@@ -20,7 +20,6 @@ class  Chai{
         return chai1.servings;
     }
 };
-
 int main(){
     Chai masala(5,"ginger");
     Chai ginger;

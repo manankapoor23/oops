@@ -10,8 +10,8 @@ class Plane{
         wing_span = w ;
         throttle_speed = t ;
     }
-
     friend class Car;
+
 };
 
 class Car{
@@ -21,7 +21,6 @@ class Car{
         cout<<"the wingspan is : "<<boeing.wing_span;
     }
 };
-
 
 int main(){
     Plane qatar(345,120);
