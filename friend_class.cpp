@@ -17,7 +17,7 @@ class Plane{
 class Car{
     int value ; 
     public:
-    void show(const Plane &boeing){
+    void show(Plane &boeing){
         cout<<"the wingspan is : "<<boeing.wing_span;
     }
 };

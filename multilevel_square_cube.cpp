@@ -20,7 +20,7 @@ class Sqr : public Number{
     }
 };
 
-class Cube : public Sqr{
+class Cube : public Number{
     public:
     int get_cube(){
         return num*num*num;
@@ -50,6 +50,7 @@ int main(){
         Cube c ;
         c.setnum(num);
         c.cub_show();
+        break;
     
     default:
         cout<<"no number entered";
