@@ -24,6 +24,7 @@ class wagon : public car{
 int main(){
     wagon r ;
     r.display();
+    r.show();
 
 
 }

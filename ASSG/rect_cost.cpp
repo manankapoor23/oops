@@ -33,5 +33,5 @@ int main(){
     rect.setLength(20);
     int area = rect.getArea();
     cout<<"area of rectangle : "<<area<<endl;
-    cout<<"total cost : "<<rect.getCost(area)<<endl;
+    cout<<"total cost : "<<rect.getCost(area);
 }
