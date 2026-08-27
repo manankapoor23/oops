@@ -1,0 +1,14 @@
+# Compiled binaries / build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.exe~
+a.out
+a.out.dSYM/
+
+# macOS
+.DS_Store
+
+# Editor / tool leftovers
+tempCodeRunnerFile.*
